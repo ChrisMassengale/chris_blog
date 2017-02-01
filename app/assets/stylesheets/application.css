@@ -13,11 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
 body {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  
+
   background-color: tan;
 
   font-family:  papyrus, serif;
@@ -28,4 +29,23 @@ h1 {
   background-image: url("Sunset.jpg");
   /*background-color: lightblue;*/
   height: 100px;
+}
+
+.article-comments{
+  font-size: 0.85em;
+  padding-left: 25px;
+}
+
+.post-title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.post-body {
+  margin-left: 10px;
+}
+
+h3 {
+  font-size: 0.95em;
+  padding-left: 0px;
 }
