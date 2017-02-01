@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+  background-color: tan;
+
+  font-family:  papyrus, serif;
+}
+
+h1 {
+  margin-top: 0px;
+  background-image: url("Sunset.jpg");
+  /*background-color: lightblue;*/
+  height: 100px;
+}
