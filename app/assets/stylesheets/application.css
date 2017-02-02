@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
-
+html{
+  background-color: lightblue;
+}
 body {
   margin-top: 0px;
   margin-left: 0px;
@@ -24,11 +26,24 @@ body {
   font-family:  papyrus, serif;
 }
 
+nav {
+  background-color: lightblue;
+  float: right;
+}
+
+.submit{
+  font-family:  papyrus, serif;
+  border-radius: 15px 15px;
+  background-color: lightblue;
+}
 h1 {
   margin-top: 0px;
-  background-image: url("Sunset.jpg");
-  /*background-color: lightblue;*/
-  height: 100px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  /*background-image: url("Sunset.jpg");*/
+  background-color: lightblue;
+  height: 75px;
+
 }
 
 .article-comments{
@@ -37,12 +52,15 @@ h1 {
 }
 
 .post-title {
+  margin-left: 10px;
+  width: 30%;
   font-style: italic;
   font-weight: bold;
 }
 
 .post-body {
   margin-left: 10px;
+  width: 70%;
 }
 
 h3 {

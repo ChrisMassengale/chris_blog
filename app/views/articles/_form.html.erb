@@ -14,16 +14,16 @@
   <% end %>
   <p>
     <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class: "post-title" %>
   </p>
   
   <p>
     <%= f.label :text %><br />
-    <%= f.text_area :text %>
+    <%= f.text_area :text, class: "post-body", rows: 10 %>
   </p>
   
   <p>
-    <%= f.submit %>
+    <%= f.submit 'Add Post', class: "submit" %>
   </p>
 
 
