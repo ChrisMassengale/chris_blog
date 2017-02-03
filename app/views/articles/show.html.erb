@@ -2,7 +2,9 @@
 <p class="post-title">
   <strong><%= @article.title.downcase %></strong>
 </p>
-
+<p class="post-byline">
+  <%= format_date_time(@article.created_at) %>
+</p>
 <p class="post-body">
   <%= @article.text %>  
 </p>
